@@ -1,155 +1,106 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
   </head>
-  
-  
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+  <body>
 
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <div id="jumbo">
-      <h1 class='jum-1'>The Red Wolves</h1>
-      <p class='jum-3'>The Red Wolves are interested in gaining students from the ages of 13-14 to recruit for their summer football league.
-      </p>
-      <p class='jum-3'>SUMMER FOOTBALL LEAGUE SIGN UPS FOR THE RED WOLVES!</p>
-      <input type="email" name="" id="" class="jum-2">
-      <button type="button" class="btn btn-primary ">Submit</button>
-    </div>
-    
-
-    <div class='img-sec-1'>
-      <div class="img-row-1">
-        
-        <img class='img-size' src="https://media.lasvegassun.com/media/img/photos/2019/08/09/20190724_SUN_HSFB_014_t653.jpg?214bc4f9d9bd7c08c7d0f6599bb3328710e01e7b" alt="">
-        <img class='img-size' src="https://uploads-ssl.webflow.com/6057dac172a8dc510667aaf2/608871c57f3ed9267c557819_Pic-2.png" alt="">
-        <img class='img-size' src="https://uploads-ssl.webflow.com/6057dac172a8dc510667aaf2/608871c59f49d8386f57ff2c_Pic-1.png" alt="">
-        
-        <div class="bio-sec">
-          <p class='bio-sec-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi deserunt accusantium necessitatibus voluptates, ducimus qui inventore a quaerat nostrum molestias earum at, possimus ex rerum minima recusandae molestiae mollitia!</p>
-          <p class='bio-sec-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi deserunt accusantium necessitatibus voluptates, ducimus qui inventore a quaerat nostrum molestias earum at, possimus ex rerum minima recusandae molestiae mollitia!</p>
-          <p class='bio-sec-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi deserunt accusantium necessitatibus voluptates, ducimus qui inventore a quaerat nostrum molestias earum at, possimus ex rerum minima recusandae molestiae mollitia!</p>
+    <nav class="navbar">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="https://uploads-ssl.webflow.com/6057dac172a8dc510667aaf2/60887a296cd41475555b8249_Pic-5.png
+                " alt="">
+        </a>
+        <button id="inTouch" type="submit" class="btn btn-primary"><a href="#inTouch">Contact</a></button>
         </div>
-      
-    </div>
-
-
-    <form class='space-1' action="">
-
-      <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-4">
-          <label for="validationCustom01" class="form-label">First and Last name</label>
-          <input type="text" class="form-control" id="validationCustom01" value="" required>
-          <div class="valid-feedback">
-            Looks good!
-          </div>
-        <div class="col-md-6">
-          <label for="validationCustom03" class="form-label">City</label>
-          <input type="text" class="form-control" id="validationCustom03" required>
-          <div class="invalid-feedback">
-            Please provide a valid city.
-          </div>
-        </div>
-
-          <div class="col-md-3">
-            <label for="validationCustom04" class="form-label">State</label>
-            <select class="form-select" id="validationCustom04" required>
-              <option selected disabled value="">Choose...</option>
-              <option>MI</option>
-            </select>
-            <div class="invalid-feedback">
-              Please select a valid state.
+    </nav>
+    
+        <div class="container">
+            <div class="row">
+                <div class="jumbotron">
+                    <div class="content">
+                        <h1>Red Wolves Football Sign Up</h1>
+                        <p>The Red Wolves are interested in gaining students from the ages of 10-13 to recruit for their summer flag football league. </p>
+                        <button type="button" class="btn btn-outline-danger"><a href="#">Sign Up!</a></button>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <label for="validationCustom05" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="validationCustom05" required>
-            <div class="invalid-feedback">
-              Please provide a valid zip.
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://uploads-ssl.webflow.com/6057dac172a8dc510667aaf2/608871c57f3ed9267c557819_Pic-2.png">
+                    <p>Red Wolves football has been around since the inception of the league in 1929 by founder Joseph J. Tomlin as a four-team conference in Northeast Philadelphia.
+                    Since then, participation has steadily increased to today's record numbers. Over 1,500 youths participated in high school-sanctioned football programs in 2000, and those numbers are continuing to grow.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://uploads-ssl.webflow.com/6057dac172a8dc510667aaf2/608871c59f49d8386f57ff2c_Pic-1.png">
+                    <p><b>SAFETY FIRST</b>
+                    Leagues have options with how to structure their program. While leagues can continue the current structure where a player is placed in a division based on his or her age and weight, they may also instead choose to register players based on age only. Currently, an estimated 75-80% of youth football nationally follows an age-only structure.
+                    The Red Wolves place value on safety measures that make a difference. That’s why we have also done things in football like reduce contact to 25% of practice time, eliminate kickoffs for our youngest divisions and require that any player who suffers a suspected head injury receive medical clearance from a concussion specialist before returning to play.
+                    </p>
+                </div> 
+                <div class="col-md-4">
+                    <img src="https://uploads-ssl.webflow.com/6057dac172a8dc510667aaf2/60887367ea7bdc6642bb0105_Pic-4.png">
+                    <p> <b>TRACEABLE STATS</b>
+                    The Red Wolves exists to use football, cheerleading, dance and a respect for education to develop strong, smart, responsible, healthy young men and women. We give them experiences that build their appreciation for and understanding of leadership, teamwork, and discipline. While individual statistics may be more common, particularly among older football players, Pop Warner only recognizes the athletic accomplishments of the team, not the individual. 
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="space-1-1">
-
-        
-
-        <div class="col-md-3">
-          <label for="validationCustom04" class="form-label">Position</label>
-          <select class="form-select" id="validationCustom04" required>
-            <option selected disabled value="">Choose...</option>
-            <option>QB</option>
-            <option>RB</option>
-            <option>CB</option>
-            <option>OL</option>
-            <option>LB</option>
-            <option>C</option>
-            <option>RG</option>
-            <option>LG</option>
-            <option>MLB</option>
-            <option>WR</option>
-            <option>FB</option>
-            <option>TE</option>
-
-
-          </select>
-          <div class="invalid-feedback">
-            Please select a valid Position.
-          </div>
         </div>
-      </div>
-        <div class="col-12">
-          <button class="btn btn-primary" type="submit">Submit form</button>
-        </div>
-      </form>
 
-    </form>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+<form id="contact inTouch">
+            <h2>Interest Form</h2>
+    <div class="mb-3">
+        <label for="firstname" class="form-label">First name</label>
+        <input type="firstname" class="form-control" id="exampleInputFirstname">
+    </div>
+    <br>
+    <div class="mb-3">
+        <label for="lastname" class="form-label">Last name</label>
+        <input type="lastname" class="form-control" id="exampleInputLastname">
+    </div>
+    <br>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <br>
+    <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Options</label>
+    <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose your position</option>
+        <option value="1"> QB</option>
+        <option value="2">RB </option>
+        <option value="3">CB </option>
+        <option value="4">OL </option>
+        <option value="5">LB </option>
+        <option value="6">MLB </option>
+        <option value="7">WR </option>
+        <option value="8">FB </option>
+        <option value="9"> TB</option>
+    </select>
+    </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
   
 
-    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+   
   </body>
 </html>
